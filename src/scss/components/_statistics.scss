@@ -1,0 +1,39 @@
+.statistics {
+  display: flex;
+  background: #ffffff;
+  box-shadow: 5px 5px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 67px;
+
+  flex-grow: 1;
+
+  &__number {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #0b132a;
+  }
+
+  &__text {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4f5665;
+  }
+
+  &__image {
+    transform: translate(-150%, 85%);
+  }
+}

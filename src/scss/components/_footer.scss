@@ -1,0 +1,103 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.container-left {
+  width: 340px;
+}
+.footer__text {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #4f5665;
+}
+.footer__info {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #afb5c0;
+}
+.container-right {
+  display: flex;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+}
+.product__title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+
+  color: #0b132a;
+}
+.product__link {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
+
+  color: #4f5665;
+}
+.engage {
+  display: flex;
+  flex-direction: column;
+  margin-right: 90px;
+}
+.engage__title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+
+  color: #0b132a;
+}
+.engage__link {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
+
+  color: #4f5665;
+}
+
+.earn-money {
+  display: flex;
+  flex-direction: column;
+}
+.earn-money__title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+
+  color: #0b132a;
+}
+.earn-money__link {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
+
+  color: #4f5665;
+}

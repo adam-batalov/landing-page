@@ -1,0 +1,80 @@
+.plan {
+  &__title {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+
+    text-align: center;
+
+    color: #0b132a;
+  }
+
+  &__subtitle {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4f5665;
+  }
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background: #ffffff;
+  border: 2px solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 330px;
+  height: 760px;
+
+  &__title {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #0b132a;
+  }
+  &__list {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4f5665;
+  }
+
+  &__text {
+    margin-top: 200px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #0b132a;
+  }
+
+  .select-button {
+    border: 2px solid #f53838;
+    box-sizing: border-box;
+    border-radius: 50px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 13px 60px;
+    color: #f53838;
+  }
+}
